@@ -1,0 +1,16 @@
+#define TONE_OUT_PIN 2
+void setup() {
+  pinMode(TONE_OUT_PIN, OUTPUT);
+}
+
+unsigned long interv = 1000;
+unsigned long lasttime = 0;
+int mixout = 0;
+
+void loop() {
+  if(lasttime + interv < micros()){
+    lasttime += interv;
+    mixout = (mixout + 1) % 2;
+    digitalWrite(TONE_OUT_PIN, mixout);
+  }
+}
