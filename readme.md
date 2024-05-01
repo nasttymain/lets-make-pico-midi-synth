@@ -2,7 +2,7 @@
 ステップバイステップでRaspberry Pi Picoによるピコピコ(ﾅﾝﾁｬｯﾃ)音源を作ってみよう
 
 # フォルダ一覧
-## 1. beep
+## 1. [beep](1_beep/1_beep.md)
 tone関数を使って音を鳴らそう
 
 ## 2. doremi
