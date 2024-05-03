@@ -5,7 +5,7 @@
 ## 1. [beep](1_beep/1_beep.md)
 tone関数を使って音を鳴らそう
 
-## 2. doremi
+## 2. [doremi](2_doremi/2_doremi.md)
 ドレミファソラシドの音階を鳴らそう
 
 ## 3. doremis
